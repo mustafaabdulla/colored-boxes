@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#btnContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+
+.colorBtn {
+    width: 60px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#colorBox {
+    width: 600px;
+    height: 200px;
+    background-color: orangered;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#inputColor {
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}

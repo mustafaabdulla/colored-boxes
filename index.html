@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushtrime</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./apps.js" defer></script>
+</head>
+<body>
+  <div id="btnContainer">
+    <div class="colorBtn" id="red" style="background-color: red;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="blue" style="background-color: blue;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="violet" style="background-color: violet;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="hotpink" style="background-color: hotpink;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="whitesmoke" style="background-color: whitesmoke;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="orange" style="background-color: orange;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="yellow" style="background-color: yellow;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="green" style="background-color: green;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="purple" style="background-color: purple;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="cyan" style="background-color: cyan;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" id="salmon" style="background-color: salmon;" onclick="changeColor(this)"></div>
+    <div class="colorBtn" onchange="changeNewColor(this)"><input type="color" id="inputColor" onchange="changeNewColor(this)"></div>
+  </div>
+
+  <div id="colorBox"></div>
+</body>
+</html>
